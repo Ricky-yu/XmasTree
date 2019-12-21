@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D207280123ADD824003E2AB3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207280023ADD824003E2AB3 /* TextView.swift */; };
+		D207280323ADDA79003E2AB3 /* Light2Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D207280223ADDA79003E2AB3 /* Light2Particle.sks */; };
+		D207280723ADE268003E2AB3 /* StarParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D207280623ADE268003E2AB3 /* StarParticle.sks */; };
+		D207280923ADF2CA003E2AB3 /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207280823ADF2CA003E2AB3 /* TreeView.swift */; };
+		D207280B23AE13EF003E2AB3 /* Light1Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D207280A23AE13EF003E2AB3 /* Light1Particle.sks */; };
 		D22F5CF123AA76190055F78C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5CF023AA76190055F78C /* AppDelegate.swift */; };
 		D22F5CF323AA76190055F78C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5CF223AA76190055F78C /* SceneDelegate.swift */; };
 		D22F5CF523AA76190055F78C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5CF423AA76190055F78C /* ContentView.swift */; };
@@ -15,6 +20,10 @@
 		D22F5CFD23AA761A0055F78C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22F5CFB23AA761A0055F78C /* LaunchScreen.storyboard */; };
 		D22F5D0823AA761A0055F78C /* ADCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5D0723AA761A0055F78C /* ADCTests.swift */; };
 		D22F5D1323AA761A0055F78C /* ADCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5D1223AA761A0055F78C /* ADCUITests.swift */; };
+		D22F5D2223AA763C0055F78C /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D22F5D2023AA763C0055F78C /* SnowParticle.sks */; };
+		D22F5D2323AA763C0055F78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22F5D2123AA763C0055F78C /* Assets.xcassets */; };
+		D22F5D2923ABA24F0055F78C /* SnowBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5D2823ABA24F0055F78C /* SnowBackgroundView.swift */; };
+		D22F5D2F23ABB0270055F78C /* GiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5D2E23ABB0270055F78C /* GiftView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D207280023ADD824003E2AB3 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D207280223ADDA79003E2AB3 /* Light2Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Light2Particle.sks; sourceTree = "<group>"; };
+		D207280623ADE268003E2AB3 /* StarParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarParticle.sks; sourceTree = "<group>"; };
+		D207280823ADF2CA003E2AB3 /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
+		D207280A23AE13EF003E2AB3 /* Light1Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Light1Particle.sks; sourceTree = "<group>"; };
 		D22F5CED23AA76190055F78C /* ADC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F5CF023AA76190055F78C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D22F5CF223AA76190055F78C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		D22F5D0E23AA761A0055F78C /* ADCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F5D1223AA761A0055F78C /* ADCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADCUITests.swift; sourceTree = "<group>"; };
 		D22F5D1423AA761A0055F78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22F5D2023AA763C0055F78C /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		D22F5D2123AA763C0055F78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22F5D2823ABA24F0055F78C /* SnowBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowBackgroundView.swift; sourceTree = "<group>"; };
+		D22F5D2E23ABB0270055F78C /* GiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 		D22F5CE423AA76190055F78C = {
 			isa = PBXGroup;
 			children = (
+				D22F5D2123AA763C0055F78C /* Assets.xcassets */,
 				D22F5CEF23AA76190055F78C /* ADC */,
 				D22F5D0623AA761A0055F78C /* ADCTests */,
 				D22F5D1123AA761A0055F78C /* ADCUITests */,
@@ -102,10 +121,18 @@
 				D22F5CF023AA76190055F78C /* AppDelegate.swift */,
 				D22F5CF223AA76190055F78C /* SceneDelegate.swift */,
 				D22F5CF423AA76190055F78C /* ContentView.swift */,
+				D22F5D2823ABA24F0055F78C /* SnowBackgroundView.swift */,
+				D22F5D2E23ABB0270055F78C /* GiftView.swift */,
+				D207280023ADD824003E2AB3 /* TextView.swift */,
+				D207280823ADF2CA003E2AB3 /* TreeView.swift */,
 				D22F5CF623AA761A0055F78C /* Assets.xcassets */,
 				D22F5CFB23AA761A0055F78C /* LaunchScreen.storyboard */,
 				D22F5CFE23AA761A0055F78C /* Info.plist */,
 				D22F5CF823AA761A0055F78C /* Preview Content */,
+				D207280A23AE13EF003E2AB3 /* Light1Particle.sks */,
+				D207280223ADDA79003E2AB3 /* Light2Particle.sks */,
+				D207280623ADE268003E2AB3 /* StarParticle.sks */,
+				D22F5D2023AA763C0055F78C /* SnowParticle.sks */,
 			);
 			path = ADC;
 			sourceTree = "<group>";
@@ -243,6 +270,11 @@
 				D22F5CFD23AA761A0055F78C /* LaunchScreen.storyboard in Resources */,
 				D22F5CFA23AA761A0055F78C /* Preview Assets.xcassets in Resources */,
 				D22F5CF723AA761A0055F78C /* Assets.xcassets in Resources */,
+				D22F5D2223AA763C0055F78C /* SnowParticle.sks in Resources */,
+				D207280323ADDA79003E2AB3 /* Light2Particle.sks in Resources */,
+				D22F5D2323AA763C0055F78C /* Assets.xcassets in Resources */,
+				D207280B23AE13EF003E2AB3 /* Light1Particle.sks in Resources */,
+				D207280723ADE268003E2AB3 /* StarParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22F5D2F23ABB0270055F78C /* GiftView.swift in Sources */,
 				D22F5CF123AA76190055F78C /* AppDelegate.swift in Sources */,
+				D22F5D2923ABA24F0055F78C /* SnowBackgroundView.swift in Sources */,
+				D207280123ADD824003E2AB3 /* TextView.swift in Sources */,
 				D22F5CF323AA76190055F78C /* SceneDelegate.swift in Sources */,
 				D22F5CF523AA76190055F78C /* ContentView.swift in Sources */,
+				D207280923ADF2CA003E2AB3 /* TreeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.ADC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinyuchen.ADC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
